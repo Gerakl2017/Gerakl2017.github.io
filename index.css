@@ -1,7 +1,11 @@
+#greatcontainer{
+    background-color: aqua;
+    margin: 0px 40px 20px 40px;
+    box-shadow: 0 0 90px rgba(48, 48, 48, 1);
+}
 body{
-    background-image: url(img/background.png);
+    background-image: linear-gradient(to bottom, rgba(),)
 }
 h1{
-    color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
