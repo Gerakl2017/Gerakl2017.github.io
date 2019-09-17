@@ -1,11 +1,30 @@
 #greatcontainer{
-    background-color: aqua;
-    margin: 0px 40px 20px 40px;
+    background-image: url(img/background.png);
+    margin: 0px 15% 20px 15%;
+    padding: 130px 10px 30px 10px;
     box-shadow: 0 0 90px rgba(48, 48, 48, 1);
 }
 body{
-    background-image: linear-gradient(to bottom, rgba(),)
+    margin-top: -4%;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));
+}
+#firstheadline-container{
+    display: flex;
+    justify-content: center;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkorange;
+    border: groove orangered 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.search-field{
+    margin: 10px auto;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
 }
