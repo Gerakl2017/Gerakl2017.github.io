@@ -9,6 +9,10 @@ body{
     padding: 0;
     background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));
 }
+header{
+    background: none;
+    height: fit-content;
+}
 #firstheadline-container{
     display: flex;
     justify-content: center;
@@ -24,7 +28,13 @@ h1{
 .search-field{
     margin: 10px auto;
 }
+#elastic{
+    margin-top: 1px;
+}
 .search-container{
     display: flex;
     justify-content: center;
+}
+li{
+    color: cornsilk;
 }
