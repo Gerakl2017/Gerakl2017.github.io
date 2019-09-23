@@ -23,6 +23,8 @@
     text-align: center;
 }
 
+/*******************************************/
+
 .elastic li{
     transition: all ease 500ms;
 }
@@ -31,6 +33,31 @@
     display: none;
 }
 
+.elastic table{
+    transition: all ease 500ms;
+}
+
+.elastic table.hide {
+    display: none;
+}
+
+.elastic tr{
+    transition: all ease 500ms;
+}
+
+.elastic tr.hide {
+    display: none;
+}
+
+.elastic tr{
+    transition: all ease 500ms;
+}
+
+.elastic tr.hide {
+    display: none;
+}
+
+/********************************************/
 mark {
     background-color: green;
     bottom: pink;
