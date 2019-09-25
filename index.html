@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
     <link rel="stylesheet" href="live_search.css">
     <link rel="stylesheet" href="index.css" type="text/css"/>
@@ -75,10 +77,64 @@
             <li>410</li>
             <li>499</li>
         </ul>
+        <br>
+        <br>
+        <div class="row">
+            <div class="container">
+                <div class="form-group">
+                    <input type="text" class="form-control pull-right" style="width:20%" id="search" placeholder="Поиск по таблице">
+                </div>
+                <br>
+                <table class="table table-striped" id="mytable" cellspacing="0" style="width: 100%;">
+                    <thead>
+                        <tr role="row">
+                            <th>Cabinet</th>                            
+                            <th>Compik</th>							
+                            <th>Other</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>406</td>
+                            <td>Ohuenniy AcER</td>
+                            <td>UChebnik po mateshe</td>
+                        </tr>
+                        <tr>
+                            <td>312</td>
+                            <td>NATABUK HP</td>
+                            <td>DIKAYA HUINIA</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>Kompik ne obnaruzhen</td>
+                            <td>Melkie pedorasy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </div>
+<br>
+<br>
+<hr>
+<br>
+<br>
 
+<script>
+$(document).ready(function(){
+    $("#search").keyup(function(){
+        _this = this;
+        $.each($("#mytable tbody tr"), function() {
+            if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+               $(this).hide();
+            else
+               $(this).show();                
+        });
+    });
+});
+</script>
 <script src="live_search.js"></script>
 
 </body>
