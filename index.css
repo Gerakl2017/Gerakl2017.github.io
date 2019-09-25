@@ -35,9 +35,3 @@ h1{
     display: flex;
     justify-content: center;
 }
-ul{
-    list-style: none;
-}
-li{
-    color: cornsilk;
-}

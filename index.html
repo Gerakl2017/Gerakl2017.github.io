@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
-    <link rel="stylesheet" href="live_search.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css"> -->
     <link rel="stylesheet" href="index.css" type="text/css"/>
-    <script src="script.js"></script>
     <title>School Sorting Project</title>
 </head>
 <body>
@@ -20,79 +18,23 @@
         </div>
         <div class="search-field">
             <div class="search-container">
-                <div class="searchitem">
-                    <input type="text" id="elastic" size="50" placeholder="Введите номер кабинета, наименование предмета и.т.д...">
-            </div>
+                    <div class="form-group">
+                            <input type="text" style="width:80%" id="search" placeholder="Поиск по таблице">
+                        </div>
         </div>
     </header>
     <main>
-        <!--
-        <br>
-        <br>
-        <br>
-        <table border="2" background="blue">
-            <tr id="tableheadlines">
-                <th>Кабинет</th>
-                <th>Предмет Техники</th>
-                <th>Учитель</th>
-            </tr>
-            <tr>  <td>406</td> <td>Принтер</td> <td>Т. Георгиевна</td>  </tr>
-            <tr>  <td>312</td> <td>Компутахтер</td> <td>А. Виленовна</td> </tr>
-            <tr>  <td>102</td> <td>Проектор</td> <td>Д. Игоревич</td>  </tr>
-            <tr>  <td>201</td> <td>Ноутбук</td> <td>М. Александровна</td>  </tr>
-            <tr>  <td>215</td> <td>Клавиатура</td> <td>Т. Парфененко</td></tr>
-        </table>
-        <br>
-        <br>
-        <br>-->
-        <ul class="elastic col-md-10">
-            <li>
-              <table border="2">
-                <th>Кабинет</th>
-                <th>Предмет</th>
-
-                <tr> <td></td> <td>Принтер</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td>406</td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-                <tr> <td></td> <td>россия вперде</td></tr>
-              </table>
-            </li>
-            
-            <li>312</li>
-            <li>102</li>
-            <li>208</li>
-            <li>309</li>
-            <li>409</li>
-            <li>495</li>
-            <li>405</li>
-            <li>415</li>
-            <li>325</li>
-            <li>408</li>
-            <li>410</li>
-            <li>499</li>
-        </ul>
-        <br>
-        <br>
-        <div class="row">
-            <div class="container">
-                <div class="form-group">
-                    <input type="text" class="form-control pull-right" style="width:20%" id="search" placeholder="Поиск по таблице">
-                </div>
-                <br>
-                <table class="table table-striped" id="mytable" cellspacing="0" style="width: 100%;">
-                    <thead>
-                        <tr role="row">
-                            <th>Cabinet</th>                            
-                            <th>Compik</th>							
-                            <th>Other</th>
-                        </tr>
-                    </thead>
+        <div>
+            <br>
+            <table class="#" id="mytable" cellspacing="0" style="width: 90%;" border="3">
+                <thead>
+                    <tr role="row">
+                        <th>Cabinet</th>                            
+                        <th>Compik</th>							
+                        <th>Other</th>
+                    </tr>
+                </thead>
+                <!--ПУТИН ПОМОГИ  ПУТИН ПОМОГИ ПУТИН ПОМОГИ ПУТИН ПОМОГИ-->
                     <tbody>
                         <tr>
                             <td>406</td>
@@ -110,17 +52,12 @@
                             <td>Melkie pedorasy</td>
                         </tr>
                     </tbody>
-                </table>
-            </div>
+                <!--ПУТИН ПОМОГИ  ПУТИН ПОМОГИ ПУТИН ПОМОГИ ПУТИН ПОМОГИ-->
+            </table>
         </div>
     </main>
     <footer></footer>
 </div>
-<br>
-<br>
-<hr>
-<br>
-<br>
 
 <script>
 $(document).ready(function(){
@@ -135,7 +72,6 @@ $(document).ready(function(){
     });
 });
 </script>
-<script src="live_search.js"></script>
 
 </body>
 </html>
