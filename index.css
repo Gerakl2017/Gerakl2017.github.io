@@ -9,10 +9,18 @@ body{
     padding: 0;
     background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));
 }
+
 header{
-    background: none;
+    background-image: url(img/background-top.jpg);
     height: fit-content;
 }
+main{
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));
+}
+footer{
+    background-image: url(img/background-bottom.jpg)
+}
+
 #firstheadline-container{
     display: flex;
     justify-content: center;
