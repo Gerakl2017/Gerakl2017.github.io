@@ -8,7 +8,7 @@ html{
     /* padding: 130px 10px 30px 10px; */
     padding-top: 100px;
     box-shadow: 0 0 90px rgba(48, 48, 48, 1);
-    background: url(img/background-top.jpg), linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1)),  url(img/background-bottom.jpg);
+    background: /*url(img/background-top.jpg),*/ linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1)),  url(img/background-bottom.jpg);
     background-position: top left, center center, bottom left;
 }
 body{
@@ -18,19 +18,23 @@ body{
     /*background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));*/
 }
 
+.header-logo{
+    display: inline-block;
+}
 header{
-    background-image: url(img/background-top.jpg);
     background-repeat: round;
     height: fit-content;
 }
 main{
     background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));
 }
-footer{
-    background-image: url(img/background-bottom.jpg);
-    background-repeat: round;
+.footerimg{
+    display: inline-block;
 }
 
+table{
+    display: inline-block;
+}
 #firstheadline-container{
     display: flex;
     justify-content: center;
