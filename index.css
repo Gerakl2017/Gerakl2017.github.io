@@ -1,5 +1,5 @@
 html{
-    background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));
+    /*background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));*/
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -8,11 +8,10 @@ html{
     /* padding: 130px 10px 30px 10px; */
     padding-top: 100px;
     box-shadow: 0 0 90px rgba(48, 48, 48, 1);
-    background: /*url(img/background-top.jpg),*/ linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1)),  url(img/background-bottom.jpg);
+    /*background: /*url(img/background-top.jpg),*/ /*linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1)),  url(img/background-bottom.jpg);*/
     background-position: top left, center center, bottom left;
 }
 body{
-    margin-top: -4%;
     padding: 0;
     display: inline;
     /*background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));*/
@@ -22,8 +21,10 @@ body{
     display: inline-block;
 }
 header{
-    background-repeat: round;
-    height: fit-content;
+    width: 100%;
+    height: 700px;
+    background: url(img/background-top.jpg);
+    background-size: cover;
 }
 main{
     background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));
@@ -32,8 +33,9 @@ main{
     display: inline-block;
 }
 
-table{
-    display: inline-block;
+#mytable{
+    border: black 1px solid;
+    margin: auto;
 }
 #firstheadline-container{
     display: flex;
@@ -48,7 +50,8 @@ h1{
     padding: 10px;
 }
 .search-field{
-    margin: 10px auto;
+    position: absolute;
+    margin: 630px auto 70px auto;
 }
 #elastic{
     margin-top: 1px;
@@ -57,3 +60,20 @@ h1{
     display: flex;
     justify-content: center;
 }
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+  }
+  td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+  }
+  tr:hover td {background: #ccddff;}
