@@ -6,7 +6,7 @@ html{
 #greatcontainer{
     margin: 0px 15% 20px 15%;
     /* padding: 130px 10px 30px 10px; */
-    padding-top: 100px;
+    padding-top: 50px;
     box-shadow: 0 0 90px rgba(48, 48, 48, 1);
     /*background: /*url(img/background-top.jpg),*/ /*linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1)),  url(img/background-bottom.jpg);*/
     background-position: top left, center center, bottom left;
@@ -16,15 +16,18 @@ body{
     display: inline;
     /*background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));*/
 }
-
+.tablecontainer{
+    padding-bottom: 30px;
+}
 .header-logo{
     display: inline-block;
 }
 header{
-    width: 100%;
-    height: 700px;
+    width: 2560spx;
+    height: 800px;
     background: url(img/background-top.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 main{
     background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));
@@ -32,7 +35,11 @@ main{
 .footerimg{
     display: inline-block;
 }
-
+#search{
+    position: relative;
+    bottom: 8px;
+    width: 2000px;
+}
 #mytable{
     border: black 1px solid;
     margin: auto;
@@ -48,10 +55,6 @@ h1{
     display: inline-block;
     text-align: center;
     padding: 10px;
-}
-.search-field{
-    position: absolute;
-    margin: 630px auto 70px auto;
 }
 #elastic{
     margin-top: 1px;
