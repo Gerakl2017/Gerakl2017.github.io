@@ -1,7 +1,5 @@
 html{
-    /*background: linear-gradient(to bottom, rgba(192,192,192,1), rgba(255,255,0,1), rgba(255,165,0,1));*/
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url(img/background.png);
 }
 #greatcontainer{
     margin: 0px 15% 20px 15%;
@@ -19,9 +17,6 @@ body{
 .tablecontainer{
     padding-bottom: 30px;
 }
-.header-logo{
-    display: inline-block;
-}
 header{
     width: 2560spx;
     height: 800px;
@@ -30,18 +25,26 @@ header{
     background-repeat: no-repeat;
 }
 main{
-    background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));
+    /*background: linear-gradient( to bottom, rgba(255, 255, 255, 1), rgba(10, 218, 250, 1), rgba(0, 47, 255, 1));*/
+    margin-top: -9%;
 }
-.footerimg{
-    display: inline-block;
+footer{
+    width: 100%;
+    height: 710px;
+    background: url(img/background-bottom.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #search{
-    position: relative;
-    bottom: 8px;
-    width: 2000px;
+    position: absolute;
+    bottom: 165px;
+    left: 389px;
+    height: 77px;
+    font-size: 300%;
 }
 #mytable{
-    border: black 1px solid;
+    border: black 3px inset;
+    border-top: black 5px inset;
     margin: auto;
 }
 #firstheadline-container{
