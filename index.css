@@ -1,5 +1,5 @@
 html{
-    background: url(img/background.png);
+    background: linear-gradient(to left, rgb(19, 134, 228), rgb(8, 8, 224));
 }
 #greatcontainer{
     margin: 0px 15% 20px 15%;
